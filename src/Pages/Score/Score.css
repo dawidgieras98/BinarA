@@ -1,0 +1,13 @@
+.Score_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  flex-direction: column;
+}
+
+.score_points {
+  color: rgb(112, 156, 242);
+}
