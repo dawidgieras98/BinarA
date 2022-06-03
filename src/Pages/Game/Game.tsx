@@ -2,7 +2,6 @@ import { useState } from "react";
 import "./Game.css";
 import ScoreButton from "../Score/ScoreButton";
 import { cloud } from "../cloud";
-import { useNavigate } from "react-router-dom";
 
 const randomIndex: number = Math.floor(Math.random() * (3 - 0));
 function Game() {
@@ -64,7 +63,6 @@ function Game() {
     );
   }
 
-  const navigate = useNavigate();
   return (
     <div className="Wrapper_game">
       <div className="Game">
