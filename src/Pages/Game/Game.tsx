@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./Game.css";
 import ScoreButton from "../Score/ScoreButton";
 import { cloud } from "../cloud";

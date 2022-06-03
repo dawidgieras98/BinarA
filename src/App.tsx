@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./index.css";
 import Landing from "./Pages/Landing/Landing";
@@ -6,10 +6,7 @@ import Game from "./Pages/Game/Game";
 import Score from "./Pages/Score/Score";
 import Error from "./Pages/Error/Error";
 
-
 function App() {
-  
-
   return (
     <>
       <Router>
